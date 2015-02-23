@@ -1,0 +1,58 @@
+#displ{
+	border: 1px solid black;
+	height: 40px;
+	width: 165px;
+	margin-bottom: 12px;
+	background-color: black;
+	color: red;
+}
+
+#keypad{
+	border: 1px solid black;
+	width: 165px;
+	background-color: black;
+
+}
+
+.numPad{
+
+	height: 50px;
+	width: 50px;
+	background-color: green;
+	font-size: 25px;
+	color: white;
+	border: none;
+}
+
+.numPad:hover{
+	height: 52px;
+	width: 52px;
+	background-color: crimson;
+}
+
+.funcs{
+	height: 50px;
+	width: 78px;
+	background-color: crimson;
+	font-size: 25px;
+	color: white;
+	border: none;
+}
+
+#equal{
+	background-color: blue;
+	border: none;
+}
+
+#equal:hover{
+	background-color: gold;
+	color: green;
+	border: none;
+}
+
+
+.funcs:hover{
+	height: 52px;
+	width: 80px;
+	background-color: blue;
+}
