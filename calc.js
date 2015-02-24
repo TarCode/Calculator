@@ -1,3 +1,12 @@
+/*
+	File:			calc.js
+	Description:	Simple calculator that returns the expression of 2 values.
+	Included Files:	style.css
+					calculator.html
+	Date:			24/02/2015
+	Author:			Taariq Isaacs
+*/
+
 var calc = {
 	el1: 0,
 	el2 : 0,
@@ -73,21 +82,21 @@ var calc = {
 	subtract: function (){
 		this.op = '-';
 		document.getElementById('displ').innerHTML += ' - ';
-		this.el1 += this.num;
+		this.el1 = this.num;
 		this.num = 0;
 	},
 
 	 multiply: function (){
 		this.op = 'x';
 		document.getElementById('displ').innerHTML += ' x ';
-		this.el1 += this.num;
+		this.el1 = this.num;
 		this.num = 0;
 	},
 
 	divide: function (){
 		this.op = '/';
 		document.getElementById('displ').innerHTML += ' / ';
-		this.el1 += this.num;
+		this.el1 = this.num;
 		this.num = 0;
 	},
 
