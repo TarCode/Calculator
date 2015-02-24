@@ -7,56 +7,58 @@
 	</head>
 
 	<body>
-		<div id = 'heading'>
-			<h3>Basic Calculator</h3>
-		</div>
-		<div id = 'displ'>
-			
-		</div>
-		<div id = 'keypad'>
-			<table>
-	    	    
-		        <tbody>
-		        
-					<tr>
-						<td><button id = 'num1' class = 'numPad' onclick = "calc.append('num1')">1</button></td>
-						<td><button id = 'num2' class = 'numPad' onclick = "calc.append('num2')">2</button></td>
-						<td><button id = 'num3' class = 'numPad' onclick = "calc.append('num3')">3</button></td>
-					</tr>
-					<tr>
-						<td><button id = 'num4' class = 'numPad' onclick = "calc.append('num4')">4</button></td>
-						<td><button id = 'num5' class = 'numPad' onclick = "calc.append('num5')">5</button></td>
-						<td><button  id = 'num6'class = 'numPad' onclick = "calc.append('num6')">6</button></td>
-					</tr>
-					<tr>
-						<td><button id = 'num7' class = 'numPad' onclick = "calc.append('num7')">7</button></td>
-						<td><button id = 'num8' class = 'numPad' onclick = "calc.append('num8')">8</button></td>
-						<td><button id = 'num9' class = 'numPad' onclick = "calc.append('num9')">9</button></td>
-					</tr>
-					<tr>
-						<td><button id = 'num0' class = 'numPad' onclick = "calc.append('num0')">0</button></td>
-						<td></td>
-						<td><button id = 'equal' class = 'numPad' onclick = "">=</button></td>
-						
-					</tr>
-				</div>
-				</tbody>
-			</table>
+		<div id = 'cont'>
+			<div id = 'heading'>
+				<h3>Kaasio</h3>
+			</div>
+			<div id = 'displ'>
+				
+			</div>
+			<div id = 'keypad'>
+				<table>
+		    	    
+			        <tbody>
+			        
+						<tr>
+							<td><button id = 'num1' class = 'numPad' onclick = "calc.append('num1')">1</button></td>
+							<td><button id = 'num2' class = 'numPad' onclick = "calc.append('num2')">2</button></td>
+							<td><button id = 'num3' class = 'numPad' onclick = "calc.append('num3')">3</button></td>
+						</tr>
+						<tr>
+							<td><button id = 'num4' class = 'numPad' onclick = "calc.append('num4')">4</button></td>
+							<td><button id = 'num5' class = 'numPad' onclick = "calc.append('num5')">5</button></td>
+							<td><button  id = 'num6'class = 'numPad' onclick = "calc.append('num6')">6</button></td>
+						</tr>
+						<tr>
+							<td><button id = 'num7' class = 'numPad' onclick = "calc.append('num7')">7</button></td>
+							<td><button id = 'num8' class = 'numPad' onclick = "calc.append('num8')">8</button></td>
+							<td><button id = 'num9' class = 'numPad' onclick = "calc.append('num9')">9</button></td>
+						</tr>
+						<tr>
+							<td><button id = 'num0' class = 'numPad' onclick = "calc.append('num0')">0</button></td>
+							<td><button id = 'cls' class = 'numPad' onclick = "calc.clear()">C</button></td>
+							<td><button id = 'equal' class = 'numPad' onclick = "calc.equals()">=</button></td>
+							
+						</tr>
+					</div>
+					</tbody>
+				</table>
 
-		<div id = 'func'>
-			<table>
-				<tbody>
-					<tr>
-						<td><button id = 'add' class = 'funcs'>+</button></td>
-						<td><button id = 'subtract' class = 'funcs'>-</button></td>
-					</tr>
-					<tr>
-						<td><button id = 'divide' class = 'funcs'>/</button></td>
-						<td><button id = 'multiply' class = 'funcs'>X</button></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+			<div id = 'func'>
+				<table>
+					<tbody>
+						<tr>
+							<td><button id = 'add' class = 'funcs' onclick = "calc.add()">+</button></td>
+							<td><button id = 'subtract' class = 'funcs' onclick = "calc.subtract()">-</button></td>
+						</tr>
+						<tr>
+							<td><button id = 'divide' class = 'funcs' onclick = "calc.divide()">/</button></td>
+							<td><button id = 'multiply' class = 'funcs' onclick = "calc.multiply()">X</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>	
 
 		<script type = "text/javascript" src = 'calc.js'></script>
 	</body>

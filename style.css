@@ -1,15 +1,31 @@
+#cont{
+	background-color: #666;
+	padding: 10px;
+	border-radius: 10px;
+	width: 320px;
+}
+h3{
+	font-family: Ubuntu;
+	font-size: 30px;
+	color: silver;
+	border: none;
+	margin-left: 70%
+}
+
 #displ{
 	border: 1px solid black;
-	height: 40px;
-	width: 165px;
+	height: 50px;
+	width: 310px;
 	margin-bottom: 12px;
 	background-color: black;
 	color: red;
+	font-family: Ubuntu;
+	font-size: 29px;
 }
 
 #keypad{
 	border: 1px solid black;
-	width: 165px;
+	width: 314px;
 	background-color: black;
 
 }
@@ -17,7 +33,7 @@
 .numPad{
 
 	height: 50px;
-	width: 50px;
+	width: 100px;
 	background-color: green;
 	font-size: 25px;
 	color: white;
@@ -25,18 +41,26 @@
 }
 
 .numPad:hover{
-	height: 52px;
-	width: 52px;
+	border-radius: 20px;
 	background-color: crimson;
 }
 
 .funcs{
 	height: 50px;
-	width: 78px;
+	width: 152px;
 	background-color: crimson;
 	font-size: 25px;
 	color: white;
 	border: none;
+}
+
+.funcs:hover{
+	border-radius: 20px;
+	background-color: blue;
+}
+
+#cls{
+	background-color: red;
 }
 
 #equal{
@@ -51,8 +75,3 @@
 }
 
 
-.funcs:hover{
-	height: 52px;
-	width: 80px;
-	background-color: blue;
-}
